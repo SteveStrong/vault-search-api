@@ -1,0 +1,9 @@
+click==6.7
+Flask==1.0
+itsdangerous==0.24
+Werkzeug==0.16.1
+
+elasticsearch
+flask-cors
+flask_restplus
+

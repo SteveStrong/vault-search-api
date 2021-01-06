@@ -1,0 +1,14 @@
+{
+  "from": 0,
+  "size": 1000,
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": { "text": { "query": "service vietnam", "operator": "or" } }
+        }
+      ],
+      "filter": { "match": { "rhetClass": { "query": "findingSentence" } } }
+    }
+  }
+}
